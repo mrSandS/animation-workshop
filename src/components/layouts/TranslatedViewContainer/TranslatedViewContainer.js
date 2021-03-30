@@ -1,7 +1,8 @@
 import React from 'react';
-import {Button, StyleSheet} from 'react-native';
+import {StyleSheet} from 'react-native';
 
 import appStyles from 'styles';
+import Button from 'components/layouts/Button/Button';
 
 const TranslatedViewContainer = ({
   AnimatedComponent,

@@ -1,5 +1,6 @@
 import React from 'react';
-import {Button, StyleSheet, View} from 'react-native';
+import {StyleSheet, View} from 'react-native';
+import Button from 'components/layouts/Button/Button';
 
 const ButtonsGroup = ({
   leftButtonTitle,
@@ -18,6 +19,6 @@ export default ButtonsGroup;
 const styles = StyleSheet.create({
   container: {
     flexDirection: 'row',
-    marginVertical: 16,
+    marginVertical: 20,
   },
 });
