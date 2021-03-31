@@ -16,7 +16,6 @@ const ModifiedAnimationView = () => {
         toValue: 100,
         useNativeDriver: true,
       }),
-      Animated.delay(300),
       Animated.spring(translateX, {
         toValue: 0,
         useNativeDriver: true,
