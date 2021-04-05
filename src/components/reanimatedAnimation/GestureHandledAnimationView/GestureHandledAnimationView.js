@@ -36,11 +36,6 @@ const GestureHandledAnimationView = () => {
       y.value = withTiming(startingPosition);
     },
   });
-  // useEffect(() => {
-  //   setInterval(() => {
-  //     new Array(10 ** 8).map((el) => el);
-  //   }, 1000);
-  // }, []);
   return (
     <PanGestureHandler onGestureEvent={eventHandler}>
       <Animated.View style={[appStyles.animatedView, uas]} />

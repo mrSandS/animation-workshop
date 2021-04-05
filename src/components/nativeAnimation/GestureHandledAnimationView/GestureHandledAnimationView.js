@@ -29,11 +29,6 @@ const GestureHandledAnimationView = () => {
       setIsPressed(false);
     }
   };
-  // useEffect(() => {
-  //   setInterval(() => {
-  //     new Array(10 ** 8).map((el) => el);
-  //   }, 1000);
-  // }, []);
   return (
     <PanGestureHandler
       onHandlerStateChange={handleStateChange}
